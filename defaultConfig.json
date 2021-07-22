@@ -1,0 +1,32 @@
+var config = {
+
+  database : {
+	  DB_URL: "jdbc:mysql://git.buhoware.com:3306/aalproyect?serverTimezone=UTC",
+	  DRIVER: "com.mysql.cj.jdbc.Driver",
+	  USER: "aalproyectadmin",
+	  PASS: "Myaalproyectheuheu@"
+  },
+  notification : {
+	TIME_ELAPSED_BEETWEEN_DATA: 60000,
+	TIME_ELAPSED_BEETWEEN_NOTIFICATIONS : 60000
+  },
+   server : {
+	bind: "0.0.0.0",
+	port: 1800,
+   },
+   client : {
+	bind: "localhost",
+	port: 1800,
+   },
+   application : {
+		title : "My app",
+		debug : 0
+   },
+   autoLogin : {
+		user : "paciente",
+		password : "abc"
+   }
+};
+
+	
+	 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Users>
+    <User>
+        <apellidos></apellidos>
+        <calle>some street</calle>
+        <ciudad>some city</ciudad>
+        <codigoPostal>1234</codigoPostal>
+        <email>paciente@gmail.com</email>
+        <hashedpassword>$2a$10$QHQUE5g0Bbiqe2VAPfcMUuv5.lo6L5Q.HeQRq/AwSuaSp3SLZwe7u</hashedpassword>
+        <id>0</id>
+        <nombre>paciente</nombre>
+        <password>123</password>
+        <type>2</type>
+    </User>
+    <User>
+        <apellidos></apellidos>
+        <calle>some street</calle>
+        <ciudad>some city</ciudad>
+        <codigoPostal>1234</codigoPostal>
+        <email>admin@gmail.com</email>
+        <hashedpassword>$2a$10$N2obnylAur96nwT8.7bw.OGNGx8XdjW0O5qR/NVHiR4n/ekrzDm0G</hashedpassword>
+        <id>0</id>
+        <nombre>admin</nombre>
+        <password>12345</password>
+        <type>0</type>
+    </User>
+    <User>
+        <apellidos></apellidos>
+        <calle>some street</calle>
+        <ciudad>some city</ciudad>
+        <codigoPostal>1234</codigoPostal>
+        <email>supervisor@gmail.com</email>
+        <hashedpassword>$2a$10$WkKKqw4Zk9hSmbX0wNYxDuWBOaN7H2ibjw3dqD6b1KnB2aR.LLPpK</hashedpassword>
+        <id>0</id>
+        <nombre>supervisor</nombre>
+        <password>1234</password>
+        <type>1</type>
+    </User>
+</Users>

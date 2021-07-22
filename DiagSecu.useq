@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" automaticImage="PNG" generate-combined-fragments="true">  
+  <object id="1" language="java" name="application.Main" project="proyecto-aal-grupo6" 
+    file="/proyecto-aal-grupo6/src/main/java/application/Main.java" binary="false" label="main2" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="37" y="0"/>    
+    <execution id="2">      
+      <position height="81" width="75" x="5" y="137"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="application.model.UsuarioImpl" project="proyecto-aal-grupo6" 
+    file="/proyecto-aal-grupo6/src/main/java/application/model/UsuarioImpl.java" binary="false" label="usuarioImpl" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="187" y="0"/>    
+    <execution id="4">      
+      <position height="27" width="128" x="84" y="164"/>    
+    </execution>  
+  </object>  
+  <message id="3" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>
+</sequence-diagram>

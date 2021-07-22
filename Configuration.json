@@ -1,0 +1,49 @@
+var config = {
+
+  database : {
+	  DB_URL: "jdbc:mysql://localhost:3306/aalproyect?serverTimezone=UTC",
+	  DRIVER: "com.mysql.cj.jdbc.Driver",
+	  USER: "root",
+	  PASS: ""
+  },
+  sensor : {
+  	types : {
+  		1 : "gas",
+  		2 : "temperatura",
+  		3 : "acelerometro",
+  		4 : "oximetro",
+  		5 : "cardio"  
+  	},
+  	alerts: {
+  		1 : "70.5",
+  		2 : "69",
+  		3 : "100",
+  		4 : "190",
+  		5 : "180"
+  	
+  	}
+  },
+  notification : {
+	TIME_ELAPSED_BEETWEEN_DATA: 100000,
+	TIME_ELAPSED_BEETWEEN_NOTIFICATIONS : 100000
+  },
+   server : {
+	bind: "0.0.0.0",
+	port: 1800,
+   },
+   client : {
+	bind: "localhost",
+	port: 1800,
+   },
+   application : {
+		title : "Senior Sense",
+		debug : 0
+   },
+   autoLogin : {
+		user : "paciente",
+		password : "mypass2"
+   }
+};
+
+	
+	 
